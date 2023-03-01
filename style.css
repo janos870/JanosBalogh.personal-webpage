@@ -1,0 +1,352 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+/* big-header section */
+
+#bigHeader {
+  background-image: url(images/header-background.jpg);
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+  color: #fff;
+}
+
+/* Navbar */
+
+.menu-btn {
+  margin-right: 15px;
+}
+
+.navbar {
+  padding-top: 1.5rem;
+  font-family: "Montserrat";
+}
+
+.nav-link {
+  margin: 0 0 0 25px;
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+.nav-link:hover {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.nav-item {
+  margin: 0.5rem;
+}
+
+.navbar #profileImg {
+  display: flex;
+  border: 1px solid #fff;
+  background-color: none;
+  padding: 5px;
+  width: 200px;
+  margin-left: 1rem;
+  border-radius: 25px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+#profileImg span {
+  visibility: hidden;
+  width: 110px;
+  background-color: #A2D2FF;
+  color: #3b3131;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  top: 3.5rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+#profileImg:hover span {
+  visibility: visible;
+}
+
+#profileImg p {
+  margin: 10px;
+}
+
+/* title slide show */
+
+#bigHeader .title {
+  padding: 5% 5%;
+  text-align: left;
+  transition: 0.5s;
+  animation: 5s slideIn ease-in-out forwards;
+  transform: translateX(-18rem);
+  opacity: 0;
+}
+
+@keyframes slideIn {
+  100% {
+    transform: translateX(0px);
+    opacity: 0.8;
+  }
+}
+
+h1, h2 {
+  font-family: "Montserrat";
+  line-height: 1.5;
+  font-size: 3rem;
+  font-weight: 900;
+  opacity: 0.8;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3, h4 {
+  font-weight: 600;
+}
+
+h5 {
+  font-style: italic;
+}
+
+#bigHeader .title p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 1025px) {
+  .title .col-lg-6 {
+    text-align: center;
+  }
+
+  .nav-link:hover {
+    margin-top: 0;
+    margin-left: 30px;
+    width: 250px;
+    padding-left: 20px;
+  }
+}
+
+/* aside section */
+
+aside {
+  font-family: "Montserrat";
+  position: absolute;
+  background-image: linear-gradient(to top, #8b8e90, #3b3131);
+  top: 0;
+  width: 25rem;
+  text-align: center;
+  padding-right: 5%;
+  transform: translateX(-26rem);
+  transition: 2s;
+  height: 100%;
+  overflow-y: auto;
+  color: #fff;
+}
+
+.active-profile {
+  transform: translateX(0);
+}
+
+aside h2{
+  font-size: 2rem;
+}
+
+aside h3 {
+  font-weight: 500;
+}
+
+aside .fa-regular {
+  position: absolute;
+  left: 0;
+  margin: 20px;
+  font-size: 2rem;
+  color: #fff;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+aside .fa-regular:hover {
+  opacity: 1;
+}
+
+aside img {
+  margin-top: 30px;
+  width: 100px;
+}
+
+aside .my-name {
+  margin-left: 50px;
+}
+
+aside .my-data {
+  margin-top: 60px;
+  margin-left: 50px;
+}
+
+aside .my-data i {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #A2D2FF;
+}
+
+aside .data-list {
+  padding: 5%;
+  width: 50%;
+  margin: auto;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+aside .data-list:hover {
+  box-shadow: 0 1px 2px 0.5px #A2D2FF;
+  opacity: 1;
+}
+
+aside .my-mail {
+  margin-top: 10px;
+  opacity: 0.5;
+  transition: 0.2s;
+}
+
+aside .my-mail:hover {
+  box-shadow: 0 1px 2px 0.5px #A2D2FF;
+  opacity: 1;
+}
+
+aside hr {
+  border: 3px dotted #8c8686;
+  border-bottom: none;
+  width: 30%;
+  margin: auto;
+  opacity: 0.5;
+}
+
+aside p {
+  line-height: 2;
+}
+
+@media screen and (max-width: 1025px) {
+  aside {
+    width: 22rem;
+  }
+
+  aside .my-data {
+    margin-left: 20px;
+  }
+
+  aside .my-name {
+    margin-left: 20px;
+  }
+}
+
+/* skills section */
+
+.my-skills {
+  margin: 100px 0;
+}
+
+.my-skills h2 {
+  text-align: center;
+}
+
+.code-img {
+  border-radius: 50px;
+  float: left;
+  margin-right: 30px;
+}
+
+.browser-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 650px;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.my-skills hr {
+  visibility: hidden;
+}
+
+@media screen and (max-width: 800px) {
+  .skill-row {
+    width: 50%;
+    text-align: center;
+  }
+
+  .gif-img {
+    border-radius: 50px;
+    float: none;
+  }
+
+  .browser-img {
+    float: none;
+  }
+
+  .my-skills img {
+    margin-bottom: 15px;
+  }
+  .my-skills hr {
+    visibility: visible;
+    border: 3px dotted #A2D2FF;
+    width: 30%;
+    margin: auto;
+    opacity: 0.2;
+  }
+}
+
+/* previous workplaces section */
+
+#previousWorkplaces {
+    background-color:  #A2D2FF;
+    padding: 5% 5%;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.container-lg {
+  text-align: center;
+}
+
+.text-center {
+  margin: 15px  auto;
+}
+
+.text-center:hover {
+  box-shadow:  0 1px 3px 0.5px;
+  background-color: #98c6f0;
+}
+
+.text-center p, h4 {
+  line-height: 1.5;
+}
+
+.text-center img, h3, h4 {
+  margin-bottom: 15px;
+}
+
+.text-center p {
+  font: 1.2rem;
+}
+
+.text-center hr {
+  border-bottom: 3px solid;
+  width: 20%;
+  margin: 10px auto;
+}
+
+
+
+

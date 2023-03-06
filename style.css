@@ -11,6 +11,7 @@ body {
   height: 100vh;
   width: 100%;
   color: #fff;
+  overflow-y: auto;
 }
 
 /* Navbar */
@@ -252,6 +253,10 @@ aside p {
 
 /* skills section */
 
+#skills {
+  padding: 0 5%;
+}
+
 .my-skills {
   margin: 100px 0;
 }
@@ -306,10 +311,8 @@ aside p {
 
 @media screen and (max-width: 800px) {
   .skill-row {
-    width: 50%;
     text-align: center;
-    width: 400px;
-    padding: 0 5%;
+    width: 100%;
   }
 
   .gif-img {
@@ -396,10 +399,14 @@ h4 {
 }
 
 .workplace-box:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /* Free time style */
+
+#freeTime {
+  padding: 0 5%;
+}
 
 .freetime-box img {
   margin-bottom: 15px;
@@ -427,7 +434,7 @@ h4 {
 
 #contact {
   background-color: #A2D2FF;
-  padding: 5rem;
+  padding: 5%;
 }
 
 .contact-box {
@@ -476,6 +483,7 @@ iframe {
 @media screen and (max-width: 1025px){
   iframe {
     margin-top: 30px;
+    height: 250px;
   }
 }
 

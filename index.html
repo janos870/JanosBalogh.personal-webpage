@@ -12,6 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu:wght@300&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
 </head>
 
 <body>
@@ -30,16 +32,17 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Készségek</a>
+                        <a class="nav-link" href="#skills">Ismeretek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Korábbi munkahelyek</a>
+                        <a class="nav-link" href="#previousWorkplaces">Korábbi
+                            munkahelyek</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Szabadidő</a>
+                        <a class="nav-link" href="#freeTime">Szabadidő</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kapcsolat</a>
+                        <a class="nav-link" href="#contact">Kapcsolat</a>
                     </li>
                 </ul>
             </div>
@@ -49,10 +52,14 @@
                 <h1>Üdvözölöm személyes honlapomon !</h1>
                 <p>
                     A nevem <strong>János</strong>,
-                    <strong>Weboldal fejlesztés a szakterületem</strong>. Ezen a
-                    weboldalon szakmai hátteremről, készségeimről és tapasztalataimról
-                    talál információkat. Aktuális projektjeimről és érdeklődési
-                    köreimről is tájékozódhat. Remélem informatívnak és érdekesnek
+                    <strong>Weboldal fejlesztés a szakterületem</strong>.
+                    Ezen a
+                    weboldalon szakmai hátteremről, készségeimről és
+                    tapasztalataimról
+                    talál információkat. Aktuális projektjeimről és
+                    érdeklődési
+                    köreimről is tájékozódhat. Remélem informatívnak és
+                    érdekesnek
                     találja ezt a weboldalt. <strong>Köszönöm a látogatást!</strong>
                 </p>
             </div>
@@ -105,22 +112,65 @@
 
     <section id="skills">
         <div class="my-skills">
-            <h2>My Skills.</h2>
+            <h2>Ismeretek, Készségek</h2>
             <div class="skill-row">
                 <img class="gif-img" src="images/giphy.gif" alt="computer" width="150">
                 <h3>A kezdet..</h3>
-                <p>Sohasem állt töllem távol az It. de valahogy a programozás melett elsiklodtam. Aztán jött a covid-19 sajnálatunkra! itt kezdődött minden (az alkotói szabadcság 🙂 ) .
-                    A lock down alatt arra gondoltam itt az ideje hasznosan kihasználni ezt az időt és belevágtam az önfejlesztésbe, a webfejlesztés irányába, kb a nulláról és az elejétöl, annyi előnnyel hogy tudtam mibe kezdem bele,
-                    nem volt ismeretlen számomra pl miaz a HTML..stb. Az angol nyelv is kommunikációs szinten müködik, legfőképp angolnyelven tanultam angol tananyagokból, de folyamatosan fejlesztem magam, mivel ez fontos ezen a szakterületen!
-                    A <strong>Frontend fejlesztéssel</strong> kezdtem, aztán elkeztem a <strong>Backend-el</strong> is foglalkozni, amivel jelenleg is folyamatosan foglalkozom, tanulok.
+                <p>Sohasem állt töllem távol az It. de valahogy a
+                    programozás melett elsiklodtam. Aztán jött a covid-19
+                    sajnálatunkra! itt kezdődött minden (az alkotói
+                    szabadcság 🙂 ) .
+                    A lock down alatt arra gondoltam itt az ideje hasznosan
+                    kihasználni ezt az időt és belevágtam az önfejlesztésbe,
+                    a webfejlesztés irányába, kb a nulláról és az elejétöl,
+                    annyi előnnyel hogy tudtam mibe kezdem bele,
+                    nem volt ismeretlen számomra pl miaz a HTML..stb. Az
+                    angol nyelv is kommunikációs szinten müködik, legfőképp
+                    angolnyelven tanultam angol tananyagokból, de
+                    folyamatosan fejlesztem magam, mivel ez fontos ezen a
+                    szakterületen!
+                    A <strong>Frontend fejlesztéssel</strong> kezdtem, aztán
+                    elkeztem a <strong>Backend-el</strong> is foglalkozni,
+                    amivel jelenleg is folyamatosan foglalkozom, tanulok.
                 </p>
-            </div> <hr>
-            <div class="skill-row">
-                <img class="browser-img" src="images/browser.png" alt="HTML5" width="150">
-                <h3>HTML and CSS</h3>
-                <p>Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu, bibendum interdum, lacus quis
-                    mauris. Curabitur wisi, quisque vel eu, rutrum nam.</p>
             </div>
+            <hr>
+            <div class="skill-row">
+                <img class="frontend-img" src="images/coding.png" alt="HTML5" width="150">
+                <h3>Frontend</h3>
+                <p>Fontosnak tartottam amikor belekezdtem a webfejlesztésbe
+                    hogy a <strong>frontend-el</strong>
+                    kezdjek, számomra ez nagyon fontos volt. A frontend
+                    fejlesztés során különböző technológiákat alkalmazok,
+                    mint például HTML, CSS, JavaScript és React. Ismerem
+                    azokat az elveket és gyakorlatokat, amelyek biztosítják,
+                    hogy az oldalak gyorsan és hatékonyan,
+                    felhasználóbarátként működjenek, és
+                    biztonságosak legyenek.
+                </p>
+            </div>
+            <hr>
+            <div class="skill-row">
+                <img class="backend-img" src="images/backend.png" alt="HTML5" width="150">
+                <h3>Backend</h3>
+                <p>
+                    Az általam használt technológiák közé tartoznak az
+                    adatbázis-kezelő rendszerek, mint például az <strong>SQL</strong>
+                    és
+                    NoSQL adatbázisok, valamint a szerveroldali programozási
+                    nyelvek, mint példáu a <strong>Node.js</strong>.
+                </p>
+            </div>
+        </div>
+        <div class="icon-logo">
+            <img src="images/html.png" alt="html" width="80">
+            <img src="images/css-3 (1).png" alt="css" width="80">
+            <img src="images/js.png" alt="js" width="80">
+            <img src="images/bootstrap.png" alt="bootstrap" width="80">
+            <img src="images/atom.png" alt="atom" width="80">
+            <img src="images/git.png" alt="git" width="80">
+            <img src="images/nodejs.png" alt="nodejs" width="80">
+            <img src="images/sql.png" alt="sql" width="80">
         </div>
     </section>
 
@@ -130,36 +180,152 @@
         <h2>Korábbi munkahelyek</h2>
         <dir class="container-lg">
             <div class="row">
-                <div class="col-lg-4 col-md-6 col-sm-8 text-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        workplace-box">
                     <img src="images/suitcase.png" alt="job" width="150">
-                    <h3>Jász Plasztik, RO.</h3> <hr>
-                    <h4>Műanyag fröccsöntés gépbeállító.</h4> <hr>
+                    <h3>Jász Plasztik, RO.</h3>
+                    <hr>
+                    <h4>Műanyag fröccsöntés gépbeállító.</h4>
+                    <hr>
                     <h5>2011 - 2015</h5>
-                    <p>Számos műanyag alkatrészek fröccsöntése, Robot programozás, fröccsöntő gépek beállítása, termékspecifikusan..</p>
+                    <p>Számos műanyag alkatrészek fröccsöntése, Robot
+                        programozás, fröccsöntő gépek beállítása,
+                        termékspecifikusan..</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 text-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        workplace-box">
                     <img src="images/suitcase.png" alt="job" width="150">
-                    <h3>Flash Europe international, NT.</h3> <hr>
-                    <h4>Nemzetközi áruszállítás</h4> <hr>
+                    <h3>Flash Europe international, NT.</h3>
+                    <hr>
+                    <h4>Nemzetközi áruszállítás</h4>
+                    <hr>
                     <h5>2015 - 2018</h5>
-                    <p>Nemzetközi soförként számos utazásaim voltak az európai országokban, 3,5T teherautóval történt a szállítas, multinacionális cégek közt..</p>
+                    <p>Nemzetközi soförként számos utazásaim voltak az
+                        európai országokban, 3,5T teherautóval történt a
+                        szállítas, multinacionális cégek közt..</p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 text-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        workplace-box">
                     <img src="images/suitcase.png" alt="job" width="150">
-                    <h3>77 Elektronika, BP, HU.</h3> <hr>
-                    <h4>Műanyag fröccsöntés gépbeállító.</h4> <hr>
+                    <h3>77 Elektronika, BP, HU.</h3>
+                    <hr>
+                    <h4>Műanyag fröccsöntés gépbeállító.</h4>
+                    <hr>
                     <h5>2018 - 2023</h5>
-                    <p>Orvosi elektronikai múszerekkel foglalkozó vállalat. A munkám hasonló módon a Jasz Plasztik-ba való munkámhoz, múanyag fröccsöntő gépek beállítása termékspecifikusan.. </p>
+                    <p>Orvosi elektronikai múszerekkel foglalkozó vállalat.
+                        A munkám hasonló módon a Jasz Plasztik-ba való
+                        munkámhoz, múanyag fröccsöntő gépek beállítása
+                        termékspecifikusan.. </p>
                 </div>
-                <div class="col-lg-4 col-md-6 col-sm-8 text-center">
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        workplace-box">
                     <img src="images/suitcase.png" alt="job" width="150">
-                    <h3>Egyéni vállalkozó</h3> <hr>
+                    <h3>Egyéni vállalkozó</h3>
+                    <hr>
                     <h5>2021 - 2023</h5>
-                    <p>A covid-19, kezdetével múködtetek egy egyéni vállalkozást, amelyben aktivitásként az ételszállítas, média, reklám, weboldalfejlesztés szerepel és jelenleg is foglakozom velük.</p>
+                    <p>A covid-19, kezdetével múködtetek egy egyéni
+                        vállalkozást, amelyben aktivitásként az
+                        ételszállítas, média, reklám, weboldalfejlesztés
+                        szerepel és jelenleg is foglakozom velük.</p>
                 </div>
             </div>
         </dir>
     </section>
+
+    <!-- Free time  -->
+
+    <section id="freeTime">
+        <h2>Szabadidő</h2>
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        freetime-box">
+                    <img src="images/cycling.png" alt="cycling" width="150">
+                    <p>Bringázás</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        freetime-box">
+                    <img src="images/hiking.png" alt="hiking" width="150">
+                    <p>Túrázás</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        freetime-box">
+                    <img src="images/rowing.png" alt="rowing" width="150">
+                    <p>Evezés</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        freetime-box">
+                    <img src="images/beer.png" alt="beer" width="150">
+                    <p>Társasági összejövetelek</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-8 text-center
+                        freetime-box">
+                    <img src="images/guitar.png" alt="guitar" width="150">
+                    <p>Zenélés</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact -->
+
+    <section id="contact">
+        <h2>Kapcsolat</h2>
+        <div class="container lg contact-box">
+            <div class="row">
+                <form class="col-lg-6" onsubmit="sendEmail(); reset(); return false;">
+                    <h3>Contact me:</h3>
+                    <div class="form-floating mb-3">
+                        <i class="icon fa-solid fa-user-tie fa-lg"></i>
+                        <input type="text" class="form-control" id="name" placeholder="Name:">
+                        <label for="name">Name:</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <i class="icon fa-solid fa-envelope fa-lg"></i>
+                        <input type="email" class="form-control" id="email" placeholder="Email:">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <i class="icon fa-solid fa-phone fa-lg"></i>
+                        <input type="tel" class="form-control" id="phone" placeholder="Phone:">
+                        <label for="phone">Phone:</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <i class="icon-textarea fa-solid fa-message fa-lg"></i>
+                        <textarea class="form-control" id="textarea" placeholder="Leave a comment here.."
+                            style="height: 100px;"></textarea>
+                        <label for="textarea">Comment:</label>
+                    </div>
+                    <div class="d-grid gap-2">
+                        <input type="submit" id="submit" class="btn btn-primary">
+                    </div>
+                </form>
+                <div class="col-lg-6 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10789.788717653159!2d19.02373678873489!3d47.46171466680336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd972b0ac0bd%3A0xb00c428ea521bf3!2sBudapest%2C%201119%20Magyarorsz%C3%A1g!5e0!3m2!1shu!2sro!4v1677948647547!5m2!1shu!2sro"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+        <ul>
+            <li><a href="https://www.facebook.com/janos.balogh.5205" target="_blank"><i
+                        class="fa-brands fa-facebook fa-2x scaleF"></i></a></li>
+            <li><a href="https://github.com/janos870" target="_blank"><i
+                        class="fa-brands fa-github fa-2x scaleF"></i></a></li>
+            <li><a href="https://www.instagram.com/janosbalogh87/" target="_blank"><i
+                        class="fa-brands fa-instagram fa-2x scaleF"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/balogh-janos-412657257/" target="_blank"><i
+                        class="fa-brands fa-2x fa-linkedin scaleF"></i></a></li>
+            <li><a href="https://twitter.com/janosb87" target="_blank"><i
+                        class="fa-brands fa-twitter fa-2x scaleF"></i></a></li>
+        </ul>
+        <p>© by Janos Balogh, personal webpage</p>
+    </footer>
 
     <script src="main.js"></script>
 </body>

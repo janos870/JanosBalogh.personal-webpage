@@ -265,7 +265,7 @@ aside p {
   text-align: center;
 }
 
-.gif-img {
+.computer-img {
   float: left;
   margin-right: 30px;
 }
@@ -316,7 +316,7 @@ aside p {
     width: 100%;
   }
 
-  .gif-img {
+  .computer-img {
     border-radius: 50px;
     float: none;
   }

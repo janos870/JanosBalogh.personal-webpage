@@ -27,5 +27,12 @@ function sendEmail() {
     From: email,
     Subject: phone,
     Body: 'Name: ' + name + '<br> Email: ' + email + '<br> Phone: ' + phone  + '<br> Message: ' + message,
-  }).then((message) => alert('Email sent succesfuly. 😊'));
+  });
+  if(email === '') {
+    alert('Emailcím kitötése kötelező!');
+  } else if(name === '') {
+    alert('Név kitöltése kötelező!');
+  } else {
+    alert('Üzenet sikeresen eküldve! 😊')
+  }
 }

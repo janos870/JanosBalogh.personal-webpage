@@ -301,6 +301,7 @@ aside p {
   display: flex;
   justify-content: space-between;
   margin: 20px 20px;
+  overflow-x: auto;
 }
 
 .icon-logo img {
@@ -337,8 +338,6 @@ aside p {
   }
 
   .icon-logo {
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: 20px auto;
   }
@@ -452,7 +451,7 @@ form {
   position: relative;
 }
 
-.icon {
+.icon, .fa-message {
   position: absolute;
   top: calc(50%);
   left: 1.25rem;

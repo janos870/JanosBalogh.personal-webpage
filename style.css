@@ -186,7 +186,7 @@ aside img {
 }
 
 .headline-border {
-  border-top: 1px solid #6495ED;
+  border-top: 1px solid #9AD0EC;
   width: 90%;
 }
 
@@ -209,9 +209,11 @@ aside .data-list {
 }
 
 aside .data-list:hover {
-  box-shadow: 0 1px 2px 0.5px #A2D2FF;
+  box-shadow: 0 1px 2px 0.5px #9AD0EC;
   opacity: 1;
   border-radius: 20px;
+  transform: rotate(5deg);
+  
 }
 
 aside .my-mail {
@@ -221,7 +223,7 @@ aside .my-mail {
 }
 
 aside .my-mail:hover {
-  box-shadow: 0 1px 2px 0.5px #A2D2FF;
+  box-shadow: 0 1px 2px 0.5px #9AD0EC;
   opacity: 1;
   border-radius: 20px;
   padding-top: 5px;
@@ -338,7 +340,7 @@ aside p {
 /* previous workplaces section */
 
 #previousWorkplaces {
-  background-color: #A2D2FF;
+  background-color: #9AD0EC;
   padding: 5% 5%;
   color: #fff;
   /* opacity: 0.8; */
@@ -392,7 +394,7 @@ h4 {
 /* Free time style */
 
 #freeTime {
-  padding: 0 5%;
+  padding: 0 5% 5% 0;
 }
 
 .freetime-box img {
@@ -400,13 +402,15 @@ h4 {
 }
 
 .freetime-box {
-  padding: 5px;
+  padding: 10px 0 0.1px 0;
   margin-top: 50px;
 }
 
 .freetime-box:hover {
-  border: 1px solid;
+  border: 2px solid;
+  border-inline: 1px solid;
   border-radius: 20px;
+  transform: rotate(5deg);
 }
 
 #freeTime h2 {
@@ -420,7 +424,7 @@ h4 {
 /* Contact */
 
 #contact {
-  background-color: #A2D2FF;
+  background-color: #9AD0EC;
   padding: 5%;
 }
 

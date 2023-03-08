@@ -306,14 +306,10 @@ aside p {
     width: 100%;
   }
 
-  .computer-img {
+  .computer-img, .frontend-img, .backend-img {
     float: none;
+    margin: 0;
   }
-
-  .frontend-img, .backend-img {
-    float: none;
-  }
-
   .my-skills img {
     margin-bottom: 15px;
   }
